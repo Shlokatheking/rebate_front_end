@@ -1,0 +1,42 @@
+html, body {
+    height: 100%;
+    font-family:'Poppins'
+  }
+
+#intro_rebate{
+    text-align: center;
+    /* writing-mode: vertical-lr;*/
+    transform: rotateZ(-90deg);font-size: 5rem; 
+    color:rgb(211,211,211)
+}
+#col1{
+    background-image: url(https://www.psdgraphics.com/wp-content/uploads/2015/06/mosaic-background.png);
+}
+@media screen and (max-width: 820px) {
+    #col_2{
+        padding-bottom: 20%;
+        padding-top:20%;
+    }
+    #col_1{
+        padding-bottom: 20%;
+        padding-top:20%;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    #intro_rebate{
+        transform: rotateZ(360deg);font-size: 50px;
+    }
+    #col_2{
+        padding-bottom: 0%;
+        padding-top:0%;
+        display: none;
+    }
+    #col_1{
+        padding-bottom: 0%;
+        padding-top:0%;
+    }
+  }
+#card_para{
+    line-height: 2rem;
+}
